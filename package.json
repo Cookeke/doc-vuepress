@@ -7,7 +7,8 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "deploy": "bash deploy.sh",
+    "push": "bash deployPush.sh"
   },
   "devDependencies": {
     "vuepress": "^2.0.0-beta.46"
