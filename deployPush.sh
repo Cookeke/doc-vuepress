@@ -23,4 +23,4 @@ git push
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git remote add origin git@github.com:Cookeke/doc-vuepress.git
 # git branch -M master
-# git push -f git@github.com:Cookeke/doc-vuepress.git main:gh-pages
+# git push -f git@github.com:Cookeke/doc-vuepress.git master:gh-pages
