@@ -24,5 +24,3 @@ git push
 # git remote add origin git@github.com:Cookeke/doc-vuepress.git
 # git branch -M master
 # git push -f git@github.com:Cookeke/doc-vuepress.git main:gh-pages
-
-cd -

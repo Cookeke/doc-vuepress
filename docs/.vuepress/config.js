@@ -1,6 +1,6 @@
 module.exports = {
     lang: 'zh-CN',
-    title: 'hello world!',
-    description: '这是我的第一个 VuePress 站点',
+    title: 'hello world2!',
+    description: 'this is my first vue-press site',
     base: '/doc-vuepress/'
 }
