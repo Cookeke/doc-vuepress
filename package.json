@@ -1,0 +1,14 @@
+{
+  "name": "doc-vuepress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "孔科翰 <kongkehan@jd.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.46"
+  }
+}
