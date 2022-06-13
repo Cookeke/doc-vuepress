@@ -3,7 +3,8 @@ const { backToTopPlugin } = require('@vuepress/plugin-back-to-top')
 const { externalLinkIconPlugin } = require('@vuepress/plugin-external-link-icon')
 const { mediumZoomPlugin } = require('@vuepress/plugin-medium-zoom')
 const { nprogressPlugin } = require('@vuepress/plugin-nprogress')
-const { searchPlugin } = require('@vuepress/plugin-search')
+// const { searchPlugin } = require('@vuepress/plugin-search')
+const { shikiPlugin } = require('@vuepress/plugin-shiki')
 
 module.exports = {
     lang: 'zh-CN',
@@ -26,18 +27,16 @@ module.exports = {
             },
             {
                 text: 'JavaScript',
+                // collapsible: true,
                 children: [
+                    // { text: 'github', link: 'https://github.com', children: [], },
                     '/JavaScript/js.md',
+                    '/JavaScript/js copy.md',
                 ],
             },
             {
                 text: 'React',
                 children: [
-                    // {
-                    //     text: 'github',
-                    //     link: 'https://github.com',
-                    //     children: [],
-                    // },
                     '/React/React.md',
                 ],
             },
@@ -57,5 +56,7 @@ module.exports = {
         nprogressPlugin({}),
         // 搜索 
         // searchPlugin({}),
+        // 高亮
+        shikiPlugin({ theme: 'one-dark-pro' }),
     ],
 }
