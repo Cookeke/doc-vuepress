@@ -11,6 +11,7 @@
     "push": "bash deployPush.sh"
   },
   "devDependencies": {
+    "@vuepress/plugin-search": "^2.0.0-beta.48",
     "vuepress": "^2.0.0-beta.46"
   }
 }
